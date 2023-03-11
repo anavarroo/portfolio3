@@ -1,0 +1,1051 @@
+
+:root{
+    --color1: #000;
+    --color2:#e52626;
+    --color3:#fff;
+    --color4:#111135;
+    --color5:#000;
+    --color6:#919191;
+    --color7:rgb(218, 100, 100);
+
+}
+
+
+.colorTexto{
+    color: white;
+}
+       
+
+       
+       
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+
+        
+/* seccion INICIO */
+    
+        
+        #principal {
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+        
+        #principal .contenido header {
+            background-color:var(--color1);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            top: 0;
+            height: 10%;
+        }
+        
+        #principal .contenido header .contenido-header {
+            max-width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        
+        #principal .contenido header .contenido-header h1 {
+            text-align: center;
+            color: var(--color2);
+        }
+        
+        #principal .contenido header .contenido-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        #principal .contenido header .contenido-header nav ul li a {
+            text-decoration: none;
+            color: var(--color3);
+            margin: 0 12px;
+            font-weight: 400;
+            
+        }
+        
+        #principal .contenido header .contenido-header nav ul li a:hover {
+            color: var(--color2);
+        }
+        
+        #principal .contenido header .contenido-header .redes a {
+            text-decoration: none;
+            color: var(--color3);
+            display: inline-block;
+            margin-left: 10px;
+        }
+        
+        #principal .contenido header .contenido-header .redes a:hover {
+            color: var(--color2);
+        }
+        
+        #principal .contenido header .contenido-header .seleccionado {
+            color: var(--color2);
+        }
+        
+        #principal .contenido .presentacion {
+            max-width: 1100px;
+            height: 100vh;
+            margin: auto;
+            color: var(--color3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #principal .contenido .presentacion .bienvenida {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        #principal .contenido .presentacion h2 {
+            font-size: 55px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        #principal .contenido .presentacion h2 span {
+            font-size: 25px;
+            color: var(--color2);
+        }
+        
+        #principal .contenido .presentacion .descripcion {
+            max-width: 700px;
+            margin: 25px auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        #principal .contenido .presentacion a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 25px;
+            padding: 20px 25px;
+            border: 2px solid var(--color3);
+            border-radius: 50px;
+            color: var(--color3);
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+        
+        #principal .contenido .presentacion a:hover {
+            background-color: var(--color2);
+        }
+        
+        
+
+
+/* SECTION BOTONES */
+
+
+ /* seccion SOBREMI */
+        
+        
+        #sobremi {
+            max-width: 1100px;
+            margin: auto;
+            padding: 100px 15px;
+            background-color: var(--color4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #sobremi .contenedor-foto {
+            max-width: 400px;
+            margin-right: 80px;
+            overflow:hidden;
+          
+        }
+
+        #sobremi .contenedor-foto:hover img{
+            -webkit-transform:scale(1.3);
+            transform:scale(1.3);
+        }
+
+        #tema{
+            background-color: var(--rojo);
+        }
+        
+        
+        #sobremi .contenedor-foto img {
+            padding: 20px;
+            width: 100%;
+
+    
+        }
+        
+        #sobremi .sobremi {
+            margin: 0 40px;
+        }
+        
+        #sobremi .sobremi .titulo-seccion {
+            font-size: 22px;
+            text-transform: uppercase;
+            color: var(--color4);
+        
+        }
+        
+        #sobremi .sobremi h2 {
+            font-size: 34px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+        
+        
+        #sobremi .sobremi h2 span {
+            color: var(--rojo);
+        }
+        
+        #sobremi .sobremi h3 {
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        #sobremi .sobremi h2{
+            color:var(--azul);
+        }
+
+    
+
+            
+        #sobremi .sobremi a {
+            display: inline-block;
+            text-decoration: none;
+            color: var(--color5);
+            border-radius: 30px;
+            border: 1px solid var(--color5);
+            padding: 10px 20px;
+            margin-top: 30px;
+            transition: .5s;
+        }
+        
+        #sobremi .sobremi a:hover {
+            background-color: var(--color2);
+            color:var(--color3);
+        }
+        
+        
+       
+        
+/* seccion PORTFOLIO */
+        
+        
+        #portfolio {
+            max-width: 1100px;
+            padding: 100px 0;
+            margin: auto;
+            background-color: var(--color3);
+        }
+        
+        #portfolio .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: var(--color4);
+        }
+        
+        #portfolio .cartas {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+        }
+        
+        #portfolio .cartas .carta {
+            max-width: 450px;
+            border: 1px solid var(--color5);
+            margin: 0 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #portfolio .cartas .carta img {
+            width: 100%;
+            height: 100%;
+            ;
+            filter: grayscale(1);
+            object-fit: cover;
+            transition: .5s;
+        }
+        
+        #portfolio .cartas .carta:hover img {
+            filter: grayscale(0);
+        }
+        
+        #portfolio .cartas .carta .datos {
+            position: absolute;
+            left: 0px;
+            background-color: var(--color1);
+            color: var(--color2);
+            width: 100%;
+            padding: 10px;
+            opacity: 0;
+            bottom: -40px;
+            transition: .5s;
+        }
+        
+        #portfolio .cartas .carta:hover .datos {
+            opacity: 1;
+            bottom: 0;
+        }
+
+
+   
+
+.container #titulo-container{
+    text-align: center;
+    color: var(--color5);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container.m-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card {
+    background-color: var(--color3);
+    border: 2px solid var(--color5);
+}
+
+#pproyectos{
+    text-align: center;
+    margin: 5px;
+}
+
+.form-control{
+    background-color: var(--color3);
+}
+
+#modulo.form-control{
+    color: var(--color5);
+    border: 2px solid var(--color5);
+}
+
+#sobremi .sobremi h2 {
+    color: var(--color5);
+}
+
+#sobremi .sobremi h3 {
+    color: var(--color5);
+}
+
+
+/* SECCION CONTACTO */
+        
+        #contacto {
+            padding: 100px 15px;
+            background-color: var(--color3);
+        }
+        
+        #contacto .titulo-seccion {
+            margin-bottom: 20px;
+        }
+        
+        #contacto .contenedor-form {
+            max-width: 1100px;
+            margin: auto;
+        }
+        
+        #contacto .contenedor-form .cartas {
+            margin-bottom: 15px;
+        }
+        
+        #contacto .contenedor-form .mitad {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #contacto .contenedor-form input,
+        #contacto .contenedor-form textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: none;
+            border: 1px solid var(--color6);
+        }
+        
+        #contacto .contenedor-form .mitad input {
+            width: 48%;
+        }
+        
+        #contacto .contenedor-form .input-full {
+            width: 100%;
+        }
+        
+        #contacto .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+          
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px;
+        }
+        
+        #contacto .btn-enviar:hover {
+            background-color: var(--color2);
+            color: var(--color3);
+        }
+       
+        
+/* SECCION FOOTER */
+        
+        footer {
+            background-color: var(--color5);
+            color: var(--color3);
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: var(--color3);
+            display: inline-block;
+            margin: 5px;
+            font-size: 26px;
+        }
+ 
+
+/* RESPONSIVE */
+
+        @media screen and (min-width: 576px) {
+
+            #principal .contenido header .contenido-header {
+                background-color: var(--color1);
+                position: fixed;
+                width: 100%;
+                z-index: 100;
+                top: 0;
+                height: 10%;
+                display: flex;
+                align-items: center;
+            }
+
+            #principal .contenido header .contenido-header h1 {
+                text-align: center;
+                color: var(--color2);
+
+                font-size: 4vh;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header nav ul li a {
+                text-decoration: none;
+                color: var(--color5);
+                margin: 0 12px;
+                font-weight: 400;
+
+                font-size: 1.9vh;
+            }
+
+            #principal .contenido header .contenido-header .redes a {
+                text-decoration: none;
+                color: var(--color3);
+                display: inline-block;
+
+                font-size: 1.9vh;
+            }
+
+            #principal .contenido header .contenido-header nav ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                margin: 0;
+            }
+
+            #principal .contenido .presentacion h2 {
+
+                font-size: 5vh;
+
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            #sobremi .sobremi{
+                margin-left: 0;
+            }
+
+            #sobremi .contenedor-foto img {
+                padding: 0;
+                width: 100%;
+            }
+
+            #sobremi .sobremi .titulo-seccion {
+                font-size: 3vh;
+            }
+
+            #sobremi .sobremi h2 {
+                font-size: 2.8vh;
+            }
+
+            #sobremi .sobremi h3 {
+                font-size: 2.3vh;
+            }
+            
+            #sobremi .sobremi p {
+                font-size: 1.7vh;
+            }
+
+            #portfolio .cartas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #portfolio .cartas .carta img{
+                height: 20vh;
+                width: 20vh;
+            }
+
+            #portfolio .container #titulo-container{
+                font-size: 3vh;
+            }
+
+            #portfolio .titulo-seccion{
+                font-size: 3.7vh;
+            }
+
+
+            footer p {
+                font-size: 1.9vh;
+            }
+
+            footer .redes a{
+                font-size: 1.9vh;
+            }
+          
+        }
+
+
+        @media screen and (min-width: 768px) {
+
+            #principal .contenido header .contenido-header {
+                background-color: var(--color5);
+                position: fixed;
+                width: 100%;
+                z-index: 100;
+                top: 0;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header h1 {
+                text-align: center;
+                color: var(--color2);
+
+                font-size: 4vh;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header nav ul li a {
+                text-decoration: none;
+                color: var(--color3);
+                margin: 0 12px;
+                font-weight: 400;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header .redes a {
+                text-decoration: none;
+                color: var(--color3);
+                display: inline-block;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header nav ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                margin: 0;
+            }
+
+            #principal .contenido .presentacion h2 {
+
+                font-size: 5vh;
+
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            #sobremi .sobremi{
+                margin-left: 0;
+            }
+
+            #sobremi .contenedor-foto img {
+                padding: 0;
+                width: 100%;
+            }
+
+            #sobremi .sobremi .titulo-seccion {
+                font-size: 3vh;
+            }
+
+            #sobremi .sobremi h2 {
+                font-size: 2.8vh;
+            }
+
+            #sobremi .sobremi h3 {
+                font-size: 2.3vh;
+            }
+            
+            #sobremi .sobremi p {
+                font-size: 1.7vh;
+            }
+
+            #portfolio .cartas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #portfolio .cartas .carta img{
+                height: 20vh;
+                width: 20vh;
+            }
+
+            #portfolio .titulo-seccion{
+                font-size: 3.5vh;
+            }
+
+            #portfolio .container #titulo-container{
+                font-size: 3vh;
+            }
+
+            footer p {
+                font-size: 2.3vh;
+            }
+
+            footer .redes a{
+                font-size: 2.3vh;
+            }
+           
+        }
+
+
+
+        @media screen and (min-width: 992px) {
+
+            #principal .contenido header .contenido-header {
+                background-color: var(--color1);
+                position: fixed;
+                width: 100%;
+                z-index: 100;
+                top: 0;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header h1 {
+                text-align: center;
+                color: var(--color2);
+
+                font-size: 4vh;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header nav ul li a {
+                text-decoration: none;
+                color: var(--color3);
+                margin: 0 12px;
+                font-weight: 400;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header .redes a {
+                text-decoration: none;
+                color: var(--color3);
+                display: inline-block;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header nav ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                margin: 0;
+            }
+
+            #principal .contenido .presentacion h2 {
+
+                font-size: 6vh;
+
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            #sobremi .sobremi{
+                margin-left: 0;
+            }
+
+            #sobremi .contenedor-foto img {
+                padding: 0;
+                width: 100%;
+            }
+
+            #sobremi .sobremi .titulo-seccion {
+                font-size: 3.1vh;
+            }
+
+            #sobremi .sobremi h2 {
+                font-size: 2.9vh;
+            }
+
+            #sobremi .sobremi h3 {
+                font-size: 2.4vh;
+            }
+            
+            #sobremi .sobremi p {
+                font-size: 1.8vh;
+            }
+
+            #portfolio .cartas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #portfolio .cartas .carta img{
+                height: 20vh;
+                width: 20vh;
+            }
+
+            #portfolio .titulo-seccion{
+                font-size: 3.2vh;
+            }
+
+            #portfolio .container #titulo-container{
+                font-size: 3.2vh;
+            }
+
+            footer p {
+                font-size: 2.3vh;
+            }
+
+            footer .redes a{
+                font-size: 2.3vh;
+            }
+
+           
+        }
+
+
+        @media screen and (min-width: 1200px) {
+
+            #principal .contenido header .contenido-header {
+                background-color: var(--color1);
+                position: fixed;
+                width: 100%;
+                z-index: 100;
+                top: 0;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                margin: 0;
+            
+            }
+
+            #principal .contenido header{
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+
+
+            #principal .contenido header .contenido-header h1 {
+                text-align: center;
+                color: var(--color2);
+
+                font-size: 4vh;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header nav ul li a {
+                text-decoration: none;
+                color: var(--color3);
+                margin: 0 12px;
+                font-weight: 400;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header .redes a {
+                text-decoration: none;
+                color: var(--color3);
+                display: inline-block;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header nav ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                margin: 0;
+            }
+
+            #principal .contenido .presentacion h2 {
+
+                font-size: 6vh;
+
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            #sobremi .sobremi{
+                margin-left: 0;
+            }
+
+            #sobremi .contenedor-foto img {
+                padding: 0;
+                width: 100%;
+            }
+
+            #sobremi .sobremi .titulo-seccion {
+                font-size: 3.1vh;
+            }
+
+            #sobremi .sobremi h2 {
+                font-size: 2.9vh;
+            }
+
+            #sobremi .sobremi h3 {
+                font-size: 2.4vh;
+            }
+            
+            #sobremi .sobremi p {
+                font-size: 1.8vh;
+            }
+
+            #portfolio .cartas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #portfolio .cartas .carta img{
+                height: 20vh;
+                width: 20vh;
+            }
+
+            #portfolio .titulo-seccion{
+                font-size: 3.2vh;
+            }
+
+            #portfolio .container #titulo-container{
+                font-size: 3.2vh;
+            }
+
+            footer p {
+                font-size: 2.3vh;
+            }
+
+            footer .redes a{
+                font-size: 2.3vh;
+            }
+         
+        }
+
+
+
+        @media screen and (min-width: 1400px) {
+
+            #principal .contenido header .contenido-header {
+                background-color: var(--color5);
+                position: fixed;
+                width: 100%;
+                z-index: 100;
+                top: 0;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                margin: 0;
+            
+            }
+
+            #principal .contenido header{
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+
+
+            #principal .contenido header .contenido-header h1 {
+                text-align: center;
+                color: var(--color2);
+
+                font-size: 4vh;
+                margin: 0;
+            }
+
+            #principal .contenido header .contenido-header nav ul li a {
+                text-decoration: none;
+                color: var(--color3);
+                margin: 0 12px;
+                font-weight: 400;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header .redes a {
+                text-decoration: none;
+                color: var(--color3);
+                display: inline-block;
+
+                font-size: 2.5vh;
+            }
+
+            #principal .contenido header .contenido-header nav ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+
+                margin: 0;
+            }
+
+            #principal .contenido .presentacion h2 {
+
+                font-size: 6vh;
+
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            #sobremi .sobremi{
+                margin-left: 0;
+            }
+
+            #sobremi .contenedor-foto img {
+                padding: 0;
+                width: 100%;
+            }
+
+            #sobremi .sobremi .titulo-seccion {
+                font-size: 3.1vh;
+            }
+
+            #sobremi .sobremi h2 {
+                font-size: 2.9vh;
+            }
+
+            #sobremi .sobremi h3 {
+                font-size: 2.4vh;
+            }
+            
+            #sobremi .sobremi p {
+                font-size: 1.8vh;
+            }
+
+            #portfolio .cartas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #portfolio .cartas .carta img{
+                height: 20vh;
+                width: 20vh;
+            }
+
+            #portfolio .titulo-seccion{
+                font-size: 3.2vh;
+            }
+
+            #portfolio .container #titulo-container{
+                font-size: 3.2vh;
+            }
+
+            footer p {
+                font-size: 2.3vh;
+            }
+
+            footer .redes a{
+                font-size: 2.3vh;
+            }
+            
+            
+        }
+
+
+
+/* cartas */ 
+
+form:has(select > option[value="java"]:checked) + .container .java,
+form:has(select > option[value="html"]:checked) + .container .html,
+form:has(select > option[value="css"]:checked) + .container .css {
+    color: rgb(var(--bs-success-rgb));
+    animation: escala 2s;
+}
+
+@keyframes escala {
+    50% {
+        transform: scale(2);
+    }
+}
+
+
+body{
+    background-color: var(--color3);
+    color: var(--color5);
+}
+
+.boton-contacto{
+    height: 10vh;
+    width: 20vh;
+    border-radius: 1em;
+    border:2px solid var(--color5);
+    background-color: var(--color7);
+}
+
+.boton-send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Este es mi portfolio personal">
+    <meta name="keywords" content="html, css, sass, bootstrap, js, portfolio, proyectos">
+    <meta name="language" content="EN">
+    <meta name="author" content="milumarchena@gmail.com">
+    <meta name="robots" content="index,follow">
+    <meta name="revised" content="Tuesday, February 28th, 2023, 23:00pm">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge, chrome1">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Añado la fuente Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="./js/js.js" defer></script>    
+
+
+    <!-- My css -->
+    <link rel="stylesheet" href="../AlbertoNavarroVega_Portfolio2/css/estilo.css">    
+    <!-- Icono al lado del titulo -->
+    <link rel="shortcut icon" href="../AlbertoNavarroVega_Portfolio2/img/My project-1.png" type="image/xpng">
+
+
+
+   
+    <title>Alberto Navarro Portfolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="principal">
+        <div class="contenido">
+
+            
+            <header>
+                <div class="contenido-header">
+                    <h1>ANV</h1>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#principal">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Alberto Navarro</span>, Estudiante de DAM</h2>
+                <p class="descripcion">Llevo a cabo mis estudios en Santa Joaquin de Vedruna </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    
+        <button type="button" class="btn btn-light" id="botonNormal">Normal</button>
+        <button type="button" class="btn btn-dark" id="modOscuro">Oscuro</button>
+        <button type="button" class="btn btn-secondary" id="grises">Gris</button>
+
+  
+    
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Alberto Navarro</span> </h2>
+            <h3>Estudiante de DAM</h3>
+            <p>Hola, mi nombre es Alberto Navarro Vega. Tengo 20 años y soy de un pueblo de Sevilla llamado Marchena.</p>
+            <p>Como digo anteriormente, me encuentro estudiando el grado superior Desarrollo De Aplicaciones Multiplatraforma en Santa Joaquin de Vedruna.</p>
+            <p>En cuanto a lenguajes de programacion domino: Java, JavaSript, C++, HTML, CSS, XML, XSD </p>
+            <p>En la parte de idiomas, tengo un nivel medio-alto en ingles. Por otro lado tengo un nivel algo inferior en frances. Por supuesto un nivel nativo español...</p>
+
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+
+        
+        <div class="cartas">
+
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/My project-1 - copia.png" alt="">
+                <div class="datos">
+                    <h4>Proyecto de mi Portfolio, es decir esta misma pagina.</h4>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/img2.jpg" alt="">
+                <div class="datos">
+                    <h4>Benchmark</h4>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="overlay"></div>
+                <img src="img/img3.jpg" alt="">
+                <div class="datos">
+                    <h4>Proyecto 360</h4>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="container">
+
+            <h3 id="titulo-container">¿Con que lenguaje se ha hecho cada proyecto?</h3>
+
+            <form>
+                <select name="modulo" id="modulo" class="form-control">
+                    <option value="all">All</option>
+                    <option value="java">Java</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                </select>
+            </form>
+
+            <div class="container m-3 d-flex gap-3">
+
+                <div class="card w-25 h-25 p-3" data-tecnologias="html,all">
+                    <p id="pproyectos">PR 1</p>
+
+                    
+                    <span class="java mx-auto">Java</span>
+                    <span class="html mx-auto html">HTML</span>
+                    <span class="css mx-auto">CSS</span>
+                </div>
+                
+                <div class="card w-25 h-25 p-3" data-tecnologias="css,all">
+                    <p id="pproyectos">PR 2</p>
+                    <span class="java mx-auto">Java</span>
+                    <span class="html mx-auto">HTML</span>
+                    <span class="css mx-auto css">CSS</span>
+                </div>
+
+                <div class="card w-25 h-25 p-3" data-tecnologias="java,all">
+                    <p id="pproyectos">PR 3</p>
+                    <span class="java mx-auto java">Java</span>
+                    <span class="html mx-auto">HTML</span>
+                    <span class="css mx-auto">CSS</span>
+                </div>
+
+                
+
+
+            </div>
+            
+        </div>
+        
+    
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacta conmigo</h3>
+        
+        <div id="contact" class="container">
+            <form action="mailto:tuMail@vedruna.es" method="get" class="mt-2 mx-auto">
+                <fieldset class="form-row reset p-4 align-items-center  ">
+    
+                    <div class="form-group row g-3 mt-1 mx-auto">
+                        <label for="subject" class="col-sm-2 col-form-label ">Asunto:</label>
+                        <div class="col-sm-10">
+                            <input type="text" id="subject" class="form-control text-info" name="subject" required />
+                        </div>
+                    </div>
+    
+                    <div class="form-group row g-3 mt-1 mx-auto">
+                        <label for="cc" class="col-sm-2 col-form-label ">CC:</label>
+                        <div class="col input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                              </div>
+                            <input type="email" id="cc" class="form-control text-info" name="cc" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+                        </div>
+                    </div>
+    
+                    <div class="row g-3 mt-2 mx-auto">
+                        <label for="body" class="form-label">Cuerpo del mensaje: </label> <br />
+                        <textarea id="body" class="form-control text-info mt-2 w-10" name="body" placeholder="Aqui va el cuerpo del mensaje..." rows="15" cols="40"
+                            required></textarea>
+                    </div>
+    
+                    <div class="boton-send">
+                        <input id="sendBttn" class="boton-contacto" type="submit" value="Send" />
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
