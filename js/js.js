@@ -32,5 +32,28 @@ btOscuro.addEventListener("click", function(){
     document.documentElement.style.setProperty("--color5", "#121113");
 })
 
+/* 2 */ 
+
+function filtrarProyectos() {
+
+    const selectFiltro = document.getElementById("modulo");
+    const tecnologiaSeleccionada = selectFiltro.value;
+
+
+    const cardsProyectos = document.querySelectorAll(".card");
+    cardsProyectos.forEach((cardProyecto) => {
+      const tecnologiasProyecto = cardProyecto.dataset.tecnologias.split(",");
+      if (tecnologiasProyecto.includes(tecnologiaSeleccionada)) {
+        cardProyecto.style.display = "block"; 
+      } else {
+        cardProyecto.style.display = "none"; 
+      }
+    });
+  }
+
+  const selectFiltro = document.getElementById("modulo");
+  selectFiltro.addEventListener("change", filtrarProyectos);
+
+
 
 
